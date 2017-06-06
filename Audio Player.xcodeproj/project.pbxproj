@@ -12,7 +12,7 @@
 		AA4E3D1A1EE6454700B09A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4E3D181EE6454700B09A8B /* Main.storyboard */; };
 		AA4E3D1C1EE6454700B09A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4E3D1B1EE6454700B09A8B /* Assets.xcassets */; };
 		AA4E3D1F1EE6454700B09A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4E3D1D1EE6454700B09A8B /* LaunchScreen.storyboard */; };
-		AA4E3D271EE64A6E00B09A8B /* arne-conspirito-breemer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA4E3D261EE64A6E00B09A8B /* arne-conspirito-breemer.mp3 */; };
+		AA4E3D291EE68C6100B09A8B /* arne-conspirito-breemer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA4E3D281EE68C6100B09A8B /* arne-conspirito-breemer.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		AA4E3D1B1EE6454700B09A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4E3D1E1EE6454700B09A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA4E3D201EE6454700B09A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA4E3D261EE64A6E00B09A8B /* arne-conspirito-breemer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "arne-conspirito-breemer.mp3"; path = "../../../../../Downloads/arne-conspirito-breemer.mp3"; sourceTree = "<group>"; };
+		AA4E3D281EE68C6100B09A8B /* arne-conspirito-breemer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "arne-conspirito-breemer.mp3"; path = "../../../../Downloads/arne-conspirito-breemer.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		AA4E3D131EE6454700B09A8B /* Audio Player */ = {
 			isa = PBXGroup;
 			children = (
-				AA4E3D261EE64A6E00B09A8B /* arne-conspirito-breemer.mp3 */,
+				AA4E3D281EE68C6100B09A8B /* arne-conspirito-breemer.mp3 */,
 				AA4E3D141EE6454700B09A8B /* AppDelegate.swift */,
 				AA4E3D161EE6454700B09A8B /* ViewController.swift */,
 				AA4E3D181EE6454700B09A8B /* Main.storyboard */,
@@ -127,8 +127,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4E3D291EE68C6100B09A8B /* arne-conspirito-breemer.mp3 in Resources */,
 				AA4E3D1F1EE6454700B09A8B /* LaunchScreen.storyboard in Resources */,
-				AA4E3D271EE64A6E00B09A8B /* arne-conspirito-breemer.mp3 in Resources */,
 				AA4E3D1C1EE6454700B09A8B /* Assets.xcassets in Resources */,
 				AA4E3D1A1EE6454700B09A8B /* Main.storyboard in Resources */,
 			);
@@ -304,6 +304,7 @@
 				AA4E3D251EE6454700B09A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
